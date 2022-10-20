@@ -1,0 +1,167 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+.upborder{
+    border: none;
+    background: transparent
+}
+.upnav{
+    height: 70px;
+    position: relative;
+    top: 10px;
+}
+.upleft{
+    font-family: "Merriweather Sans";
+    padding:17px 0 0 82px;
+    font-size: 20px;
+    float: left;
+    color: black !important;
+}
+.upright{
+    font-family: "Merriweather Sans";
+    font-size: 15px;
+    float: right;
+    margin-right: 50px;
+}
+.upright li{
+    padding-top: 3px;
+}
+.upright li a{
+    color: black !important;
+}
+.up{
+    width: 100%;
+    min-height: 657px;
+    background: url(../img/revan.jpg)
+}
+/*@media screen and ( max-width: 200px ) {
+   .upnav{
+    background-color: white;
+   } 
+
+   
+}*/
+.upcenter{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    float: left;
+    left: 280px;
+    top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upcntr{
+    width: 55px;
+    border: 2px solid #f4623a;
+    position: relative;
+    right: 220px;
+}
+.upcntrdiv{
+    width: 550px;
+    text-align: center;
+    position: relative;
+    left: 85px;
+    bottom: 100px;
+}
+.upcntrspan{
+    font-family: "Merriweather Sans";
+    color: white;
+    font-size: 50px;
+}
+.upcntrspan2{
+    font-family: "Cambria Math";
+    color: #FFFFFFBF;
+    font-size: 21px;
+}
+.upcntrdiv2{
+    width: 650px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    left:50px;
+}
+.updwnbttn{
+    width: 150px;
+    height: 55px;
+    background-color: #f4623a !important;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    color: white;
+    top: 190px;
+    right: 325px;
+    font-family:"Merriweather Sans" ;
+    font-size: 13px;
+}
+.updwnbttn:hover {
+    transition: 0.3s;
+    background: #b84b2c !important;
+}
+.centerup{
+    width: 100%;
+    height: 420px;
+    background: #f4623a;
+}
+.cntrup1{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cntrupdiv{
+    width: 550px;
+    text-align: center;
+    position: relative;
+    left: 360px;
+    bottom: 80px;
+    
+}
+.cntrupspan{
+    font-family: "Merriweather Sans";
+    color: white;
+    font-size: 30px;
+}
+.cntrupspan2{
+    font-family: "Cambria Math";
+    color: #FFFFFFBF;
+    font-size: 18px;
+}
+.cntrupdiv2{
+    width: 670px;
+    height: 80px;
+    text-align: center;
+    position: absolute;
+    top: 190px;
+    left:315px;
+}
+.cntrdwnbttn{
+    width: 170px;
+    height: 55px;
+    background-color: white !important;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    color: black;
+    position: relative;
+    font-family:"Merriweather Sans" ;
+    font-size: 13px;
+    top: 120px;
+    right: 50px;
+}
+
+.cntrup{
+    width: 55px;
+    border: 2px solid white;
+    position: relative;
+    left: 60px;
+    bottom: 35px;
+    
+     }
